@@ -1,4 +1,4 @@
-void main(){
-  print('hello world');
-
+void main() {
+  var name = 'aa';
+  String home = 'bb';
 }
