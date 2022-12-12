@@ -37,3 +37,7 @@ null값을 허용하려면 ?를 붙여주면 됨. String? 같이.
 
 
 모든 변수는 기본적으로 non-nullable.
+
+1.4.
+
+- final = js의 const 같은 것.
