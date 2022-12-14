@@ -58,3 +58,9 @@ null값을 허용하려면 ?를 붙여주면 됨. String? 같이.
 
   final API=fetchApi();    = OK
   
+
+2.0.
+
+- 자료형
+  dart의 자료형들, 그리고 대부분이 object로 이뤄져있다. function도.
+  
