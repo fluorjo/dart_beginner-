@@ -63,4 +63,10 @@ null값을 허용하려면 ?를 붙여주면 됨. String? 같이.
 
 - 자료형
   dart의 자료형들, 그리고 대부분이 object로 이뤄져있다. function도.
-  
+
+2.1.
+
+- List
+  - [1,2,] 처럼 요소 마지막에 , 넣어주면 보기 좋게 줄바꿈해줌.
+  - collection if, collection for를 지원한다. 
+    
