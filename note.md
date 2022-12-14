@@ -45,3 +45,16 @@ null값을 허용하려면 ?를 붙여주면 됨. String? 같이.
 1.5.
 
 - late = 초기 데이터 없이 변수를 선언할 수 있게 한다. 
+
+1.6.
+
+- const = compile-time constant를 만들어준다.★★★
+
+  =컴파일할 때 평가된다★★★
+  컴파일할 때,앱을 배포하기 전에 미리 알고 있는 값이어야 한다는 뜻.
+
+  반대로 어떤 값인지 모르고 그 값이 API로부터 오거나 사용자의 입력으로 받는 거면 final이나 var를 써야 한다. 
+  const API=fetchApi();    = NG
+
+  final API=fetchApi();    = OK
+  
