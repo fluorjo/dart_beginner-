@@ -69,4 +69,10 @@ null값을 허용하려면 ?를 붙여주면 됨. String? 같이.
 - List
   - [1,2,] 처럼 요소 마지막에 , 넣어주면 보기 좋게 줄바꿈해줌.
   - collection if, collection for를 지원한다. 
-    
+
+2.2. String Interpolation
+
+- text에 변수를 추가하는 방법
+- $나 ${}
+- ' '를 두 번 쓰게 될 경우 \\' 쓰면 됨.
+-  
