@@ -75,4 +75,10 @@ null값을 허용하려면 ?를 붙여주면 됨. String? 같이.
 - text에 변수를 추가하는 방법
 - $나 ${}
 - ' '를 두 번 쓰게 될 경우 \\' 쓰면 됨.
--  
+
+2.3.Map
+
+- js의 object나 python의 dict같은 것. 
+- Map<String, Object>
+  라고 돼있다면 key는 string, value는 object(여러 자료형이 섞임)란 뜻.
+- dart는 모든 게 object에서 시작. object는 어떤 자료형도 될 수 있음. 타입 스크립트의 any 같은 것. 
