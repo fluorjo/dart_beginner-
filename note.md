@@ -82,3 +82,10 @@ null값을 허용하려면 ?를 붙여주면 됨. String? 같이.
 - Map<String, Object>
   라고 돼있다면 key는 string, value는 object(여러 자료형이 섞임)란 뜻.
 - dart는 모든 게 object에서 시작. object는 어떤 자료형도 될 수 있음. 타입 스크립트의 any 같은 것. 
+
+2.4.Set
+
+- Set과 List의 차이점?
+  - Set에 속한 모든 아이템은 유니크. 
+    Set에 이미 있는 거 추가해도 출력하면 하나만 나옴. 
+  - Set은 순서가 있음.
