@@ -102,3 +102,25 @@ null값을 허용하려면 ?를 붙여주면 됨. String? 같이.
   자료형에 alias를 붙일 수 있게 해준다. 
 
   자료형이 헷갈릴 때 도움이 될 alias를 만드는 방법.
+
+4.0.
+
+- class에서 property를 선언할 때는 반드시 타입을 정해줘야 한다. var로만 쓰면 안 된다. 
+
+- dart의 class에서는 this를 사용하지 않아도 된다. 그냥 $변수명 해주면 됨. 
+
+  써도 작동하긴 하고, method 내에서 같은 이름의 변수가 있어서 어쩔 수 없이 사용해야 할 때 쓰면 됨. class Player{
+    final String name = 'aa';
+    //final 선언해주면 바꿀 수 없게 됨. 
+    int xp = 1500;
+
+    void sayHello(){
+      var name= '122';
+      print('Hi my name is ${this.name}');
+      
+    }
+  }
+
+  
+
+  
