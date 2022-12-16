@@ -121,6 +121,7 @@ null값을 허용하려면 ?를 붙여주면 됨. String? 같이.
     }
   }
 
-  
+4.1.
 
-  
+- constructor의 이름은 class와 같아야 한다. 
+
